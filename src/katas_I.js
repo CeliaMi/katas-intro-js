@@ -38,3 +38,21 @@ positions.forEach(position => {
     messageWithForEach = messageWithForEach + hiddenMessage[position];
 });
 console.log(messageWithForEach);
+
+
+//3️⃣ Con ayuda de los métodos que disponen los Arrays en Js ordena este listado de planetas y elimina los que no lo sean🪐
+
+//const listadoPlanetas = ['Narnia','Venus','Tierra','Marte','Júpiter','Saturno','Urano','Neptuno','Plutón', 'Mercurio' ]
+
+const planetList = ['Narnia', 'Venus', 'Tierra', 'Marte', 'Júpiter', 'Saturno', 'Urano', 'Neptuno', 'Plutón', 'Mercurio'];
+
+//eliminamos Narnia
+planetList.shift();
+//eliminamos Mercurio y lo guardamos en una variable, esta es la clave⭐ que aprenderas en esta kata, los métodos de array tienen devuelven cosas.
+
+const Mercury = planetList.pop();
+planetList.unshift(Mercury);
+
+console.log(planetList);
+
+//bueno puedes elimar también plutón si es que no lo consideras un planeta, pero...💔
