@@ -12,3 +12,5 @@ En este repo encontrarás unos pequeños retos para prácticar conceptos de intr
 
 - Crear funciones con condicionales, aplicar métodos, recorrer arrays, crear objetos, modificarlos y crear clases.
 
+
+🌞 Lo ideal es que no lo necesites, pero tienes una rama solutions donde podrás consultar el resultado de cada uno de los ejercicios.
