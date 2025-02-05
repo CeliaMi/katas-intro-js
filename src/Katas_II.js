@@ -27,6 +27,18 @@ congratulateBirthday('maria');
     }
 
 
+//  3️⃣Crea una función que devuelva la tabla de múltiplicar completa del número que le indiquemos ✍
+
+function multiplicationTable(table_number) {
+    for (let i = 1; i <= 10; i++) {
+        console.log(`${table_number} x ${i} = ${table_number * i}`);
+    }
+}
+
+//llamamos nuestra función para que haga la tabla del 3
+multiplicationTable(3);
+
+
 //5️⃣ Crea un objeto planeta tierra, que tenga las siguientes propiedades: su distancia del sol, sus vecinos (especificando que planeta tiene delante y cuál detrás), una lista de su composición atmosférica, y que también tenga un método saludar que devuelva en consola Hola soy el planeta tierra 🌍
 
 const earth = {
