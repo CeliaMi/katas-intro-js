@@ -39,6 +39,20 @@ function multiplicationTable(table_number) {
 multiplicationTable(3);
 
 
+//En este ejemplo hacemos una tabla de multiplicar con respuesta en una sola línea, es decir, que nos devuelve un único string con toda la tabla de multiplicar y no un console.log por cada multiplicación como pasaba en el ejemplo anterior
+function multiplicationTableOneString(table_number) {
+    let result = '';
+    
+    for (let i = 1; i <= 10; i++) {
+        result += `${table_number} x ${i} = ${table_number * i}\n`;
+    }
+    
+    return result;
+}
+
+//llamamos nuestra función para que haga la tabla del 3 en un solo String
+console.log(multiplicationTableOneString(3));
+
 //5️⃣ Crea un objeto planeta tierra, que tenga las siguientes propiedades: su distancia del sol, sus vecinos (especificando que planeta tiene delante y cuál detrás), una lista de su composición atmosférica, y que también tenga un método saludar que devuelva en consola Hola soy el planeta tierra 🌍
 
 const earth = {
