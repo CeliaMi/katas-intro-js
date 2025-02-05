@@ -14,4 +14,6 @@ En este repo encontrarás unos pequeños retos para prácticar conceptos de intr
 
 <br>
 
-    🌞 Para tu tranquilidad, dentro del repo encontrarás una rama solutions donde podrás consultar el resultado de cada uno de los ejercicios. Confía en ti, seguramente llegues a la solución sin ella.
+    🌞 Para tu tranquilidad, dentro del repo encontrarás una rama solutions 
+    donde podrás consultar el resultado de cada uno de los ejercicios.
+    Confía en ti, seguramente llegues a la solución sin ella.
